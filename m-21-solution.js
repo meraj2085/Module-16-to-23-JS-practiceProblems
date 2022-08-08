@@ -57,8 +57,6 @@ console.log('Min number is:',givenNumbers); */
 function getAverage(numbers){
      let sum = 0
      for(i=0; i<numbers.length; i++){
-          // elements = numbers[i];
-          // console.log(elements);
           sum = sum + numbers[i];
           avg = sum / numbers.length;
      }
