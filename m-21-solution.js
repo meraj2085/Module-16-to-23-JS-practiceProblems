@@ -65,3 +65,43 @@ console.log('Min number is:',givenNumbers); */
 const numbers = [ 70, 50, 80, 97, 84];
 const givenNumbers = getAverage(numbers);
 console.log(givenNumbers) */
+
+
+
+// প্রাকটিস চ্যালেঞ্জ-5:
+//................................................................................\\
+
+/* function getArea(length, height){
+     const area = length * height;
+     return area;
+}
+const myArea = getArea(7, 4);
+console.log(myArea);
+ */
+
+
+// প্রাকটিস চ্যালেঞ্জ-6:
+//................................................................................\\
+
+/* function getTheLargest(numbers){
+     let highest = numbers[0];
+     for(let i=0; i<numbers.length; i++){
+          elements = numbers[i];
+          if(elements > highest){
+               highest = elements;
+          }
+     }
+
+     let highest2nd = numbers[0];
+     for(let i = 0; i<numbers.length; i++){
+          let elements2 = numbers[i];
+          if(elements2 > highest2nd && elements2 < highest){
+               highest2nd = elements2;
+          }
+     }
+     return highest2nd;
+}
+
+const numbers = [10, 20, 70, 30, 90, 50];
+const givenNumbers = getTheLargest(numbers);
+console.log(givenNumbers); */
