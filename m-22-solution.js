@@ -14,3 +14,24 @@ const givenInput = areaOfTriangle(20, 30, 25);
 // প্রাকটিস চ্যালেঞ্জ-2:
 //-------------------------------------------------------------------------------\\
 
+function isPrime(number){
+     if(number <= 1){
+          return false;
+     }
+     else if(number === 2){
+          return true;
+     }
+     else if(number > 2){
+          for(i=2; i<number; i++){
+               if(number % i === 0){
+                    return false;
+               }
+               else{
+                    return true;
+               }
+          }
+     }
+}
+const number = 7;
+const result = isPrime(number);
+console.log(result);
