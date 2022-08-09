@@ -54,7 +54,7 @@ console.log('Min number is:',givenNumbers); */
 // প্রাকটিস চ্যালেঞ্জ-4:
 //................................................................................\\
 
-function getAverage(numbers){
+/* function getAverage(numbers){
      let sum = 0
      for(i=0; i<numbers.length; i++){
           sum = sum + numbers[i];
@@ -64,4 +64,4 @@ function getAverage(numbers){
 }
 const numbers = [ 70, 50, 80, 97, 84];
 const givenNumbers = getAverage(numbers);
-console.log(givenNumbers)
+console.log(givenNumbers) */
